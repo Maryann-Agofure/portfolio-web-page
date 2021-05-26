@@ -1,0 +1,197 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link href="./css/style.css" rel="stylesheet" />
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+    <title>Maryann's page</title>
+  </head>
+  <body>
+    <div class="container">
+      <header>
+        <div class="flex-container">
+          <h3>Ann.A..</h3>
+          <nav class="nav-bar">
+            <ul>
+              <li>
+                <a href="index.html" class="flex-item" target="_blank">Home</a>
+              </li>
+              <li>
+                <a href="About.html" class="flex-item" target="_blank">About</a>
+              </li>
+              <li>
+                <a href="contact.html" class="flex-item" target="_blank"
+                  >Contact</a
+                >
+              </li>
+              <li>
+                <a href="Projects.html" class="flex-item" target="_blank"
+                  >Projects</a
+                >
+              </li>
+              <li>
+                <a
+                  href="https://maryann.hashnode.dev/"
+                  class="flex-item"
+                  target="_blank"
+                  >Blog</a
+                >
+              </li>
+            </ul>
+          </nav>
+        </div>
+      </header>
+      <div class="bg-image">
+        <section class="intro">
+          <h1>Hello, I'm Maryann...</h1>
+          <h2>
+            A
+            <span
+              id="text-type"
+              data-words="['frontend developer','content strategist,''content writer']"
+              data-wait="300"
+            ></span>
+          </h2>
+          <div class="button-class">
+            <button>
+              <a href="contact.html" target="_blank">Get in touch</a>
+            </button>
+            <button><a href="Projects.html">See my work</a></button>
+          </div>
+        </section>
+      </div>
+
+      <div class="socialmedia">
+        <li class="socials">
+          <a href="https://github.com/maryannie-24" target="_blank"
+            ><img
+              src="./images/iconfinder_social_media_logo_github_1221585.png"
+              alt="github-profile"
+              style="height: 55px; width: 55px; padding-top: 5.5px"
+          /></a>
+        </li>
+        <li class="socials">
+          <a href="https://twitter.com/Mary_Annie__" target="_blank"
+            ><img
+              src="./images/iconfinder_twitter_online_social_media_734367.png"
+              alt="twitter-profile"
+              style="height: 55px; width: 55px; padding-top: 5.5px"
+          /></a>
+        </li>
+        <li class="socials">
+          <a
+            href="https://www.linkedin.com/in/agofure-maryann-67b144164/"
+            target="_blank"
+            ><img
+              src="./images/iconfinder_linked_in_online_social_media_734393.png"
+              alt="Linked-in profile"
+              style="height: 55px; width: 55px; padding-top: 5.5px"
+          /></a>
+        </li>
+        <li class="socials">
+          <a href="" target="_blank"
+            ><img
+              src="./images/iconfinder_mail_email_envelope_send_message_1011335.png"
+              alt="message-card"
+              style="height: 55px; width: 55px; padding-top: 5.5px"
+          /></a>
+        </li>
+      </div>
+      <div class="about-me">
+        <div class="profile-picture">
+          <a href=""><img src="" alt="" /></a>
+        </div>
+        <div class="bio">
+          <h1><u>Well..Hello...</u></h1>
+          <p>
+            Hello, Maryann here. I'm a frontend developer trying to solve
+            problems with code. I currently babble with Javascript and
+            reactJs.When I'm not peering into a computer screen looking for
+            bugs, you can find me looking into a screen(I know, bad for the
+            eyes), but watching movies(mostly romance) this time around. Want to
+            have a word? You can contact me
+            <a href="contact.html" target="_blank">here</a>
+          </p>
+        </div>
+      </div>
+      <div class="contact-me">
+        <h2 class="greetings">Contact Me</h2>
+        <form>
+          <div class="contact">
+            <label for="name">Name</label>
+            <input
+              type="name"
+              id="name"
+              placeholder="Would love to know your name"
+              required
+            />
+            <label for="email">Your email address</label>
+            <input
+              type="email"
+              id="email"
+              placeholder="Email address"
+              required
+            />
+            <label for="number">Number</label>
+            <input
+              type="text"
+              id="number"
+              placeholder="Please include area code"
+              required
+            />
+
+            <button class="form-button">I'll be in touch!</button>
+          </div>
+        </form>
+      </div>
+      <div class="project-section">
+        <h3>My Projects</h3>
+
+        <div class="projects">
+          <section>
+            <title>Hapee-Ng</title>
+            <img src="" alt="" />
+            <p>
+              Hapee-Ng is a menopause healthcare centre that caters to
+              pre-menopausal and menopausal women
+            </p>
+
+            <p>Stack: Javascript, mongoDb</p>
+          </section>
+          <section>
+            <title>OlYoga</title>
+            <img src="" alt="" />
+            <p>
+              OlYoga is a therapy and wellness clinic that offers therapy
+              sessions, wellness clinics and daily yoga classes Stack: Reactjs,
+              mySql
+            </p>
+          </section>
+          <section>
+            <title>SantaHo!!!</title>
+            <img src="" alt="" />
+            <p>
+              SantaHo!!! was made specially for sharing gifts and cheer at
+              Christmas. Make a list and send to your contacts. Stack: Reactjs,
+              MySql, css
+            </p>
+          </section>
+          <section>
+            <title>Sal-ven</title>
+            <img src="" alt="" />
+            <p>
+              Sal-ven is a salad haven, catering to everything salads and
+              freshness. Stack: Reactjs, MySql, MongoDb
+            </p>
+          </section>
+        </div>
+      </div>
+
+      <footer>
+        <p>Copyright @Maryann Agofure 2021</p>
+      </footer>
+      <script src="./main.js"></script>
+    </div>
+  </body>
+</html>

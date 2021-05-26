@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="./css/style.css" rel="stylesheet">
+    <title>Document</title>
+</head>
+<body>
+    <header>
+            
+        <div class = "flex-container">
+           <h3>...M.A/></h3>
+           <nav class="nav-bar">
+               <ul>
+                   <li><a href="index.html" class="flex-item" target="_blank">Home</a></li>
+                   <li><a href="About.html" class="flex-item" target="_blank">About</a></li>
+                    <li><a href="contact.html" class="flex-item" target="_blank">Contact</a></li>   
+                   <li><a href="Projects.html" class="flex-item" target="_blank">Projects</a></li>
+                   <li><a href="https://maryann.hashnode.dev/" class="flex-item" target="_blank">Blog</a></li>
+               
+           </ul>
+           </nav>
+  
+</div>
+   </header>
+    <div class="contact-me">
+    <h2 class="greetings">Contact Me</h2>
+    <form>
+        
+    <div class="contact">
+        
+        <label for="name">Name</label>
+        <input type="name" id="name" placeholder="Would love to know your name" required>
+        <label for="email">Your email address</label>
+        <input type="email" id="email" placeholder="Email address" required>
+        <label for="number">Number</label>
+        <input type="text" id="number" placeholder="Please include area code" required>
+        
+        <button class = "form-button">I'll be in touch!</button>
+    </div>
+    
+</form>
+
+</div>
+<script>
+    const submitButton = document.getElementsByClassName('form-button');
+    const contactBody = document.getElementsByClassName('contact');
+    submitButton.addEventListener('click', function display(){
+        contactBody.innerHTML.display = none;
+    })
+    submitButton();
+   
+    
+   /* let button = document.getElementsByClassName('form-button').innerHTML
+    button.addEventListener('click', function notShow() {
+        let x = document.getElementsByClassName("contact").innerHTML;
+        let newMessage = document.createElement('h2');
+        newMessage.innerHTML = "Thank you! You'll be hearing from me soon";
+        let parent = document.getElementsByClassName('contact-me');
+        let child = document.getElementsByClassName('greetings')
+        parent.insertBefore('child', 'newMessage') })*/
+
+    
+</script>
+</body>
+</html>
