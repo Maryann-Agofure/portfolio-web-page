@@ -3,6 +3,7 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="./css/icons/css/all.css" />
     <link href="./css/style.css" rel="stylesheet" />
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
     <title>Maryann's page</title>
@@ -44,14 +45,9 @@
       </header>
       <div class="bg-image">
         <section class="intro">
-          <h1>Hello, I'm Maryann...</h1>
+          <h1>Hi, I'm Maryann...</h1>
           <h2>
-            A
-            <span
-              id="text-type"
-              data-words="['frontend developer','content strategist,''content writer']"
-              data-wait="300"
-            ></span>
+            <span id="text-type"></span>
           </h2>
           <div class="button-class">
             <button>
@@ -64,7 +60,7 @@
 
       <div class="socialmedia">
         <li class="socials">
-          <a href="https://github.com/maryannie-24" target="_blank"
+          <a href="https://github.com/Maryann-Agofure" target="_blank"
             ><img
               src="./images/iconfinder_social_media_logo_github_1221585.png"
               alt="github-profile"
@@ -105,19 +101,51 @@
         <div class="bio">
           <h1><u>Well..Hello...</u></h1>
           <p>
-            Hello, Maryann here. I'm a frontend developer trying to solve
-            problems with code. I currently babble with Javascript and
-            reactJs.When I'm not peering into a computer screen looking for
-            bugs, you can find me looking into a screen(I know, bad for the
-            eyes), but watching movies(mostly romance) this time around. Want to
-            have a word? You can contact me
+            I'm a frontend developer trying to solve problems with code. I
+            currently dabble with Javascript and reactJs.Want to have a word?
+            You can contact me
             <a href="contact.html" target="_blank">here</a>
           </p>
+          <div>
+            <h5>I work with...</h5>
+            <div>
+              <figcaption>
+                <figure></figure>
+                <caption>
+                  Javascript
+                </caption>
+              </figcaption>
+              <figcaption>
+                <figure></figure>
+                <caption>
+                  ReactJs
+                </caption>
+              </figcaption>
+              <figcaption>
+                <figure></figure>
+                <caption>
+                  mongoDb
+                </caption>
+              </figcaption>
+              <figcaption>
+                <figure></figure>
+                <caption>
+                  HTML5 & CSS3
+                </caption>
+              </figcaption>
+              <figcaption>
+                <figure></figure>
+                <caption>
+                  TailwindCss
+                </caption>
+              </figcaption>
+            </div>
+          </div>
         </div>
       </div>
       <div class="contact-me">
-        <h2 class="greetings">Contact Me</h2>
-        <form>
+        <h2 class="greetings">Get in touch!</h2>
+        <form action="mailto:maryannagofure@gmail.com" method="POST">
           <div class="contact">
             <label for="name">Name</label>
             <input
@@ -140,8 +168,9 @@
               placeholder="Please include area code"
               required
             />
-
-            <button class="form-button">I'll be in touch!</button>
+            <div class="formDiv">
+              <button class="form-button">Let's talk</button>
+            </div>
           </div>
         </form>
       </div>
