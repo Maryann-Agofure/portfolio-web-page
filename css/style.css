@@ -6,7 +6,7 @@
 
 body {
   height: 100%;
-  width: 100%;
+  width: 100vw;
   background: radial-gradient(#ffe7ff, #b68abd);
   box-sizing: border-box;
   font-size: 16px;
@@ -344,10 +344,10 @@ section > img {
   height: 55%;
 }
 
-@media only screen and (max-width: 700px) {
+@media only screen and (max-width: 790px) {
   body {
     width: 100%;
-    height: 100vh;
+    height: auto;
   }
   .intro {
     width: 100%;
