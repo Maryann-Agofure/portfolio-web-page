@@ -207,6 +207,9 @@ footer > p {
   height: 95%;
   border: 1px groove #ded5c4;
 }
+.projects > small {
+  text-align: center;
+}
 .contact input {
   display: flex;
   margin: 0 auto;
