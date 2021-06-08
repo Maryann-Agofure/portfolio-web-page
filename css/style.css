@@ -347,10 +347,6 @@ section > img {
 }
 
 @media only screen and (max-width: 790px) {
-  body {
-    width: 100%;
-    height: auto;
-  }
   .intro {
     width: 100%;
     margin: 0 auto;
