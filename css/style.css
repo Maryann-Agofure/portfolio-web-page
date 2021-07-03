@@ -7,7 +7,7 @@
 body {
   height: 100%;
   width: 100vw;
-  background: radial-gradient(#ffe7ff, #b68abd);
+  background-color: rgb(235, 203, 203);
   box-sizing: border-box;
   font-size: 16px;
 }
@@ -16,7 +16,7 @@ body {
   height: 100%;
 }
 header {
-  background-color: #805788;
+  background-color: rgb(226, 199, 199);
   height: 9%;
   width: 100%;
 }
@@ -41,9 +41,9 @@ header {
   padding: 0.1px 5px;
 
   font-style: italic;
-  color: #ffe7ff;
-  font-size: 1.3rem;
-  font-weight: light;
+  color: #805788;
+  font-size: 1.4rem;
+  font-weight: bold;
   font-family: serif, Geneva, Verdana, sans-serif;
   text-align: center;
   justify-content: flex-start;
@@ -67,7 +67,7 @@ header {
   text-decoration: none;
 
   cursor: pointer;
-  color: #ded5c4;
+  color: #805788;
 }
 ul a,
 .navigation {
@@ -76,6 +76,7 @@ ul a,
   width: 90px;
   padding: 5px 10 px;
   font-size: var(--font-size);
+  z-index: 4;
 }
 
 .bg-image {
