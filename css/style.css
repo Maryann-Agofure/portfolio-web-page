@@ -153,7 +153,7 @@ button a {
 }
 
 footer {
-  background-color: var(--secondary-color);
+  background-color: rgb(226, 199, 199);
   height: 5%;
 }
 footer > p {
@@ -266,7 +266,7 @@ h3 {
 }
 .projects section {
   flex-basis: 20%;
-  height: 40vh;
+  height: 43vh;
   margin: 20px auto;
   z-index: 2;
   box-shadow: 2px 2px 1px #305973;
